@@ -1,5 +1,6 @@
 const vendorController=require('../controllers/vendorController');
 const express=require('express');
+const cors=require('cors');
 const router=express.Router();
 //the data from register is posted to database
 router.post('/register',vendorController.vendorRegister);

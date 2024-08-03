@@ -2,7 +2,7 @@ const Vendor=require('../models/Vendor')
 const dotEnv=require('dotenv');
 const jwt=require('jsonwebtoken')
 const bcrypt=require('bcryptjs')
-
+const cors=require('cors');
 dotEnv.config();
 const secretKey=process.env.WhatIsMyName;
 const vendorRegister=async(req,res)=>{
