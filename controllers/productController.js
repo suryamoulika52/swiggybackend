@@ -2,7 +2,7 @@ const Product=require('../models/Product')
 const Firm=require('../models/Firm')
 //multer used for storing images
 const multer=require('multer')
-
+const path=require('path')
 
 
 const storage = multer.diskStorage({
