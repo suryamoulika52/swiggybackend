@@ -33,5 +33,6 @@ app.listen(PORT,()=>{
     console.log(`server started and running at ${PORT}`);
 });
 app.use('/',(req,res)=>{
-    res.send("welcome");
+    //res.send("welcome");
+     res.json({ message: "welcome" });
 })
