@@ -34,5 +34,5 @@ app.listen(PORT,()=>{
 });
 app.use('/',(req,res)=>{
     //res.send("welcome");
-     res.json({ message: "welcome" });
+     res.send({ message: "welcome" });
 })
