@@ -32,7 +32,7 @@ app.use('/uploads',express.static('uploads'))
 app.listen(PORT,()=>{
     console.log(`server started and running at ${PORT}`);
 });
+
 app.use('/',(req,res)=>{
-    //res.send("welcome");
-     res.send({ message: "welcome" });
+    res.send("<h1>SWIGGY</h1>");
 })
